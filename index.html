@@ -1,1 +1,118 @@
-https://smarkease-ai.github.io/aura-beauty-salon/
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA | Неоновый Салон Красоты</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Inter:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="grid-overlay"></div>
+    <header class="header">
+        <div class="logo-container">
+            <h1 class="logo-text">aura</h1>
+        </div>
+        <nav class="nav">
+            <a href="#services" class="nav-link">Услуги</a>
+            <a href="#booking" class="nav-link">Запись</a>
+            <a href="#contacts" class="nav-link">Контакты</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-subtitle" data-text="Твой стиль. Твоя аура.">Твой стиль. Твоя аура.</h2>
+                <p class="hero-description">Погрузись в атмосферу ретровейва и доверь свою красоту профессионалам. Яркие
+                    краски, безупречный стиль и неоновый вайб Майами 80-х.</p>
+                <a href="#booking" class="btn-primary">Записаться онлайн</a>
+            </div>
+            <!-- Ретро-солнце на фоне -->
+            <div class="retro-sun"></div>
+        </section>
+        <section id="services" class="services">
+            <h2 class="section-title">Наши Услуги</h2>
+            <div class="services-grid">
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">✂️</div>
+                    <h3>Неоновое окрашивание</h3>
+                    <p>От классического блонда до кислотных кибер-оттенков. Безопасные красители и идеальный градиент.
+                    </p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">✨</div>
+                    <h3>Синт-наращивание</h3>
+                    <p>Добавь объема и длины. Капсульное наращивание премиум-класса, невидимое даже под ультрафиолетом.
+                    </p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">💅</div>
+                    <h3>Ретро-маникюр</h3>
+                    <p>Идеальное покрытие, сумасшедшие дизайны, втирка и неон. Твои ногти будут сиять ярче огней ночного
+                        города.</p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">👣</div>
+                    <h3>Глисс-педикюр</h3>
+                    <p>Расслабляющий SPA-уход и безупречное покрытие для танцев до самого утра.</p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">👁️</div>
+                    <h3>Архитектура взгляда</h3>
+                    <p>Идеальная геометрия бровей и ламинирование. Выразительный взгляд, который запомнится надолго.</p>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">🦋</div>
+                    <h3>Бархатные ресницы</h3>
+                    <p>Объемное наращивание: от невесомой классики до густого голливудского объема.</p>
+                </div>
+            </div>
+        </section>
+        <section id="booking" class="booking">
+            <div class="booking-container">
+                <h2 class="section-title">Забронировать время</h2>
+                <form class="neon-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Твое имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="" disabled selected>Выбери услугу</option>
+                            <option value="hair">Покраска / Наращивание</option>
+                            <option value="nails">Маникюр / Педикюр</option>
+                            <option value="brows">Брови / Ресницы</option>
+                            <option value="complex">Комплекс</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="contacts" class="footer">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Свяжись с нами</h3>
+                <a href="tel:+79000000000" class="neon-link">📞 +7 900 000 00 00</a>
+                <a href="mailto:hello@aurasalon.com" class="neon-link">✉️ hello@aurasalon.com</a>
+                <p>📍 город Москва ул Пушкина д 7</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">TT</a>
+                <a href="#" class="social-icon">VK</a>
+            </div>
+            <div class="map-container">
+                <div class="map-placeholder">Карта (Miami Beach)</div>
+            </div>
+        </div>
+        <p class="copyright">© 2026 AURA Beauty Salon. Волна стиля.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
